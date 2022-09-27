@@ -1,0 +1,68 @@
+body{
+    font-family: "montserrat";}
+
+.bold{
+    font-weight: 700;}
+
+    hr{
+        width: 5.625rem;
+        height: 0.1875rem;
+        background-color: #00ff;}
+
+        .btn{
+            padding: .5rem 1.5rem;
+            border: 1px solid #00ff;
+            border-radius: 0;
+            color: #00ff;
+            text-transform: uppercase;
+            -webkit-transition: all 0.3s;
+            -o-transition: all 0.3s;
+            transition: all 0.3s;
+        }
+
+        .btn:hover{
+            background-color: #00ff;
+            color: #232323;
+        }
+
+        h2{
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+
+        .menu-responsive{
+            background-color: #00ff;
+            padding: 2rem 0; }
+            .menu-responsive ul{
+                margin: 0;
+                padding: 0;
+                list-style: none; }
+                .menu-responsive ul li{
+                    width: 100%;
+                    padding: 1.5rem 0;
+                    text-align: center; }
+                    .menu-responsive ul li a{
+                        font-size: 1.125rem;
+                        color: #232323;
+                        -webkit-transition: all 0.3s;
+                        -o-transition: all 0.3s;
+                        transition: all 0.3s;}
+                        .menu-responsive ul li a:hover, .menu-responsive ul li a:active {
+                            color: #fff;
+                            text-decoration: none; }
+
+                        .header_top--responsive ul{
+                            float: right;}
+                            .header_top--responsive ul li .menu-bars{
+                                font-size: 2.4rem;
+                                color: #fff;
+                                -webkit-transition: all .3s;
+                                -o-transition: all .3s;
+                                transition: all .3s;}
+                                .header__top--responsive ul li .menu-bars:hover, .header__top--responsive ul li .menu-bars:active {
+                                    color: #00ff; }
+
+                    header{
+                        height: 100vh;
+                        background-image: url("https://www.codemotion.com/magazine/wp-content/uploads/2020/12/christopher-gower-m_HRfLhgABo-unsplash-896x504.jpg");
+                    }
